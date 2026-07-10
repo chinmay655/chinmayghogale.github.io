@@ -464,3 +464,104 @@ color:#d1d5db;
 font-size:.95rem;
 
 }
+.experience-card{
+
+background:#111827;
+
+padding:40px;
+
+border-radius:20px;
+
+max-width:950px;
+
+margin:0 auto;
+
+border:1px solid rgba(56,189,248,.15);
+
+transition:.35s;
+
+}
+
+.experience-card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 20px 40px rgba(56,189,248,.12);
+
+}
+
+.experience-header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:25px;
+
+flex-wrap:wrap;
+
+}
+
+.experience-header h3{
+
+font-size:1.8rem;
+
+margin-bottom:8px;
+
+}
+
+.experience-header h4{
+
+color:#38bdf8;
+
+font-weight:500;
+
+}
+
+.experience-date{
+
+background:#38bdf8;
+
+color:#08111f;
+
+padding:8px 18px;
+
+border-radius:30px;
+
+font-weight:600;
+
+}
+
+.experience-description{
+
+line-height:1.9;
+
+margin:25px 0;
+
+color:#d1d5db;
+
+}
+
+.experience-points{
+
+display:grid;
+
+grid-template-columns:1fr;
+
+gap:15px;
+
+}
+
+.point{
+
+background:#0f172a;
+
+padding:18px;
+
+border-radius:12px;
+
+border-left:4px solid #38bdf8;
+
+}
