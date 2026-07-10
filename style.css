@@ -566,11 +566,41 @@ border-left:4px solid #38bdf8;
 font-size:.95rem;
 
 }
-#contact p{
-text-align:center;
-margin:12px 0;
-color:#d1d5db;
-}
+<section id="contact" class="section">
+
+    <div class="container">
+
+        <h2 class="section-title">Let's Connect</h2>
+
+        <p class="contact-text">
+
+            I'm currently open to internships and full-time opportunities.
+            Feel free to reach out if you'd like to collaborate or discuss a project.
+
+        </p>
+
+        <div class="contact-links">
+
+            <a href="mailto:ghogalechinmay00@gmail.com">
+                <i class="fas fa-envelope"></i>
+                Email
+            </a>
+
+            <a href="https://github.com/chinmay655" target="_blank">
+                <i class="fab fa-github"></i>
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/c-ghogale" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 footer{
 padding:30px;
 text-align:center;
@@ -953,5 +983,68 @@ font-size:.95rem;
     font-size:20px;
 
     margin-top:3px;
+
+}
+/* ===========================
+   ACHIEVEMENTS
+=========================== */
+
+.achievement-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+.achievement-card{
+
+background:#111827;
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+border:1px solid rgba(56,189,248,.15);
+
+transition:.35s;
+
+}
+
+.achievement-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 35px rgba(56,189,248,.15);
+
+}
+
+.achievement-card i{
+
+font-size:45px;
+
+color:#38bdf8;
+
+margin-bottom:20px;
+
+}
+
+.achievement-card h3{
+
+margin-bottom:15px;
+
+font-size:1.4rem;
+
+}
+
+.achievement-card p{
+
+color:#cbd5e1;
+
+line-height:1.7;
 
 }
