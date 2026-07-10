@@ -282,6 +282,67 @@ color:#94a3b8;
 animation:bounce 2s infinite;
 
 }
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact-text{
+
+max-width:700px;
+
+margin:0 auto 40px;
+
+text-align:center;
+
+line-height:1.9;
+
+color:#cbd5e1;
+
+}
+
+.contact-links{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.contact-links a{
+
+padding:15px 30px;
+
+background:#111827;
+
+border-radius:12px;
+
+color:white;
+
+text-decoration:none;
+
+border:1px solid rgba(56,189,248,.15);
+
+transition:.35s;
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+}
+
+.contact-links a:hover{
+
+background:#38bdf8;
+
+color:#08111f;
+
+}
 
 @keyframes bounce{
 
