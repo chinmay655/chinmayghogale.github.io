@@ -411,11 +411,10 @@ transform:scale(1.05);
 =========================== */
 
 .projects-grid{
-
-display:grid;
-
-gap:35px;
-
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
+    gap:30px;
+    align-items:stretch;
 }
 
 .project-card{
